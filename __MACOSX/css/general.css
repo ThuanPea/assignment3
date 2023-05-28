@@ -1,0 +1,30 @@
+/* Thuộc tính chung giữa tablet và mobile */
+@media screen and (max-width: 1024px) {
+  /* CERTIFICATE */
+  /* title */
+  .title-main-certifi h2 {
+    padding-top: 20px;
+    margin-left: 20px;
+  }
+
+  /*  border*/
+  .div-certifi {
+    border: none;
+    margin: 0;
+    flex-wrap: wrap;
+    grid-template-rows: repeat(2, 1fr);
+    width: 1fr;
+  }
+
+  .database-certifi {
+    border-bottom: none;
+  }
+
+  .div-certifi img {
+    padding: 0;
+    display: flex;
+    justify-self: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,133 @@
+@media screen and (max-width: 740px) {
+  body {
+    margin: 0 auto;
+    width: 100vw;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .container-avatar {
+    display: none;
+  }
+
+  /* navigation */
+  .nav-bar {
+    flex: none;
+    display: block;
+    padding: 14px 16px;
+    height: 100px;
+    text-align: center;
+    font-size: 18px;
+    height: 100%;
+  }
+  .item-nav {
+    flex: none;
+    justify-content: left;
+    margin: 20px;
+  }
+  .background,
+  .info,
+  .project,
+  .certificate {
+    border: none;
+  }
+
+  .target {
+    margin: 60px 36px auto 36px;
+    padding-bottom: 50px;
+  }
+  /* PERSONAL INFORMATION */
+
+  .container-info {
+    grid-template-columns: 1fr;
+    height: 100%;
+  }
+  .per-info {
+    margin: 60px 36px auto 36px;
+    padding-bottom: 50px;
+  }
+
+  /* BACKGROUND */
+  .container-grid {
+    margin: 60px 20px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+  /* icon distance*/
+  .section-title {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+  }
+
+  /* CERTIFICATE*/
+
+  /* title*/
+  .title-main-certifi h2 {
+    padding-top: 40px;
+    margin-left: 20px;
+  }
+
+  .container-certifi div {
+    padding: 0;
+  }
+
+  /* grid size */
+  .grid-certifi {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    width: 100%;
+    margin-left: 0;
+  }
+  /* border */
+  .div-certifi {
+    border-bottom: 1px solid #f39c9c;
+  }
+  /* PROJECT */
+  .web-certifi,
+  .container-project,
+  .div-column {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .title-main-project {
+    margin-bottom: 10px;
+    margin-left: 20px;
+    width: 100%;
+  }
+
+  .container-project {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 60px 20px;
+
+    padding-right: 20px;
+  }
+  .grid-project {
+    row-gap: 40px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .div-column {
+    width: 100vw;
+    margin-bottom: 60px;
+  }
+
+  .div-column {
+    grid-template-rows: 1fr 50px 50px 120px 50px 50px;
+    width: 99%;
+    margin: 0 auto !important;
+  }
+
+  .describe {
+    margin-right: 20px;
+  }
+
+  /*CONTACT*/
+  .container-contact {
+    margin-top: 60px;
+  }
+}
